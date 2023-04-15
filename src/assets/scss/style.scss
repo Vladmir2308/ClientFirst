@@ -1,0 +1,28 @@
+@import 'fonts';
+@import 'vars';
+@import 'vendor/reset';
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $white;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    font-family: "SenR";
+    color: $white;
+}
+
+@import 'blocks/text-style';
+@import 'blocks/button';
+@import 'blocks/social';
+@import 'blocks/header';
+@import 'blocks/container';
+@import 'blocks/nav';
