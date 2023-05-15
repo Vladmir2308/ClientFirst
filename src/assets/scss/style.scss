@@ -20,6 +20,11 @@ body {
     color: $white;
 }
 
+p { 
+    font-size: 1.6rem;
+    color: $lightGray;
+}
+
 @import 'blocks/text-style';
 @import 'blocks/button';
 @import 'blocks/social';
@@ -27,3 +32,20 @@ body {
 @import 'blocks/container';
 @import 'blocks/nav';
 @import 'blocks/footer';
+@import 'blocks/home';
+@import 'blocks/intro';
+@import 'blocks/blog';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
