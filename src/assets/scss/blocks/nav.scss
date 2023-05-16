@@ -1,0 +1,21 @@
+.nav__list{
+    display: flex;
+    
+}
+
+.nav__link{
+    text-decoration: none;
+    color: $white;
+    
+    margin-right: 2.4rem;
+    
+    transition: color $transitionTime linear;
+    
+    &:last-child{
+        margin-right: 3.2rem;
+    }
+    
+    &:hover{
+        color: $orange;
+    }
+}

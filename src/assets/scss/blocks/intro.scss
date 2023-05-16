@@ -1,0 +1,29 @@
+.home-intro__inner{
+    height: calc(100vh - $header-height);
+    max-width: 800px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: "I_R";
+    font-size: 1.6rem;
+}
+
+.home-intro__suptitle{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.home-intro__title{
+    font-size: 5.6rem;
+    font-family: "S_B";
+    line-height: 1.1;
+
+    margin: 2rem 0;
+}
+
+.home-intro__text{
+    margin: 1.2rem 0 6.4rem;
+}

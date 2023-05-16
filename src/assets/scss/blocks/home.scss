@@ -1,0 +1,10 @@
+.home{
+    position: relative;
+}
+
+.home-intro{
+    background: url('/assets/images/home/intro.jpg') center no-repeat;
+    background-size: cover;
+
+    height: calc(100vh - $header-height);
+}

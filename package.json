@@ -4,8 +4,8 @@
     "description": "brainscloud",
     "author": "brainscloud",
     "devDependencies": {
-        "@babel/core": "^7.21.4",
-        "@babel/preset-env": "^7.21.4",
+        "@babel/core": "^7.21.8",
+        "@babel/preset-env": "^7.21.5",
         "babel-core": "^6.26.3",
         "babel-loader": "^9.1.2",
         "babel-preset-env": "^1.7.0",
@@ -23,9 +23,9 @@
         "gulp-strip-css-comments": "^2.0.0",
         "gulp-uglify": "^3.0.2",
         "panini": "^1.7.2",
-        "webpack": "^5.79.0",
+        "webpack": "^5.82.1",
         "webpack-stream": "^7.0.0",
-        "sass": "^1.62.0"
+        "sass": "^1.62.1"
     },
     "browserslist": [
         "last 1 version",

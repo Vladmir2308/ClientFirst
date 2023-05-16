@@ -16,13 +16,12 @@ body {
     background-color: $white;
     font-size: 1.6rem;
     line-height: 1.75;
-    font-family: "SenR";
+    font-family: "S_B";
     color: $white;
 }
 
 p { 
     font-size: 1.6rem;
-    color: $lightGray;
 }
 
 @import 'blocks/text-style';
@@ -35,6 +34,7 @@ p {
 @import 'blocks/home';
 @import 'blocks/intro';
 @import 'blocks/blog';
+@import 'blocks/span';
 
 
 
