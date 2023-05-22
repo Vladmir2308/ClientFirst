@@ -1,6 +1,4 @@
 .home-post{
-    padding: 12rem 0;
-
     color: $black;
 }
 
@@ -63,11 +61,9 @@
     font-size: 1.6rem;
     font-family: "I_R";
     text-decoration: none;
-
-    transition: color $transitionTime linear;
-
+    
     &:hover{
-        color: $darkOrange
+        text-decoration: underline;
     }
 }
 

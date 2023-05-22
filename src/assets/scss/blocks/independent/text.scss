@@ -1,0 +1,19 @@
+.text-gray{
+    font-family: "I_R";
+    font-size: 1.6rem;
+    color: $lightGray;
+    line-height: 1.75;
+}
+
+.suptitle{
+    font-family: "I_SB";
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: $black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    &--color__purple{
+        color: $purple;
+    }
+}
