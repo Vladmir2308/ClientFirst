@@ -1,0 +1,39 @@
+.home-logos{
+    margin: 9.6rem 0;  
+}
+
+.home-logos__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+
+.home-logos__text{
+    margin-right: 7rem;
+}
+
+.home-logos__suptitle{
+    font-size: 1.4rem;
+    font-family: "I_R";
+    color: $lightGray;
+    
+    opacity: .6;
+}
+
+.home-logos__title{
+    font-size: 2.4rem;
+    font-family: "S_B";
+    color: $lightGray;
+}
+
+.home-logos__images{
+    img{
+        margin-right: 7rem;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
