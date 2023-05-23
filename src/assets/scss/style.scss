@@ -20,8 +20,8 @@ body {
     color: $white;
 }
 
-p { 
-    font-size: 1.6rem;
+a{
+    text-decoration: none;
 }
 
 /* Independent */
@@ -35,6 +35,7 @@ p {
 @import 'blocks/independent/titles';
 @import 'blocks/independent/text';
 @import 'blocks/independent/category';
+@import 'blocks/independent/authors';
 
 /* Home */
 @import 'blocks/home/home';
@@ -43,6 +44,7 @@ p {
 @import 'blocks/home/home-about';
 @import 'blocks/home/home-category';
 @import 'blocks/home/home-started';
+@import 'blocks/home/home-authors';
 
 
 

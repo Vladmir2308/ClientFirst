@@ -1,0 +1,53 @@
+.authors{
+    display: flex;
+    justify-content: space-between;
+}
+
+.authors__item{
+    width: 23%;
+
+    padding: 4rem 2.8rem;
+
+    background-color: $transWhite;
+
+    text-align: center;
+
+    transition: background $transitionTime linear;
+
+    &:hover{
+        background-color: $transOrange;
+    }
+}
+
+.authors__name{
+    margin-top: 2rem;
+}
+
+.authors__prof{
+    font-size: 1.4rem;
+    font-family: "I_R";
+    color: $lightGray;
+
+    margin-bottom: 2rem;
+}
+
+.authors__social-link{
+    margin-right: 1.2rem;
+}
+
+.authors__icon{
+    width: 16px;
+    height: 16px;
+
+    cursor: pointer;
+
+    transition: fill $transitionTime linear;
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    &:hover{
+        fill: $lightGray;
+    }
+}
