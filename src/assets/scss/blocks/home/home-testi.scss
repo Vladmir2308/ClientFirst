@@ -1,0 +1,43 @@
+.home-testi__innner{
+    background-color: $transOrange;
+
+    padding: 8rem 11.02rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-testi__left{
+    max-width: 350px;
+}
+
+.home-testi__line{
+    background-color: $lightGray;
+
+    min-height: 100%;
+    width: 1px;
+    opacity: .4;
+}
+
+.home-testi__left-text{
+    margin-top: 1rem;
+}
+
+.home-testi__right-title{
+    max-width: 460px;
+}
+
+.home-testi__right-bottom{
+    margin-top: 10rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-testi__right-avtor{
+    display: flex;
+
+    img{
+        margin-right: 1.3rem;
+    }
+}

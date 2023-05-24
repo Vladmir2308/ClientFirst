@@ -2,12 +2,27 @@
     display: flex;
 }
 
-.social__item{
+.social__link{
+    margin-right: 2.4rem;
+}
+
+.social__icon{
     margin-right: 1.6rem;
+
+    width: 16px;
+    height: 16px;
     
+    fill: $lightGray;
+
     text-decoration: none;
+
+    transition: fill $transitionTime linear;
     
     &:last-child{
         margin-right: 0;
+    }
+
+    &:hover{
+        fill: $white;
     }
 }

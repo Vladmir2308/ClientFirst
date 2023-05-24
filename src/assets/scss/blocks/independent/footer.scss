@@ -31,7 +31,7 @@
     background-color: transparent;
     
     font-size: 1.6rem;
-    font-family: "SenR";
+    font-family: "I_R";
     border: 1px solid $darkGray;
     text-transform: capitalize;
     color: $white;
@@ -42,7 +42,7 @@
     width: 325px;
     
     &::placeholder{
-        color: $white;
+        color: $lightGray;
     }
 }
 
