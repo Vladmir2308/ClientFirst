@@ -1,0 +1,46 @@
+.blog-intro{
+    background-color: $transPurple;
+
+    height: 520px;
+}
+
+.blog-intro__photo{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+.blog-intro__inner{
+    max-width: 620px;
+    height: 520px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: "I_R";
+    font-size: 1.6rem;
+    color: $black;
+}
+
+.blog-intro__suptitle{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.blog-intro__title{
+    margin: 2rem 0;
+}
+
+.blog-intro__avtor{
+    font-weight: 700;
+}
+
+.blog-intro__text{
+    margin: 1.2rem 0 6.4rem;
+
+    color: $lightGray;
+}
