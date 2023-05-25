@@ -8,7 +8,7 @@
 }
 
 .home-testi__left{
-    max-width: 350px;
+    max-width: 310px;
 }
 
 .home-testi__line{
@@ -28,10 +28,13 @@
 }
 
 .home-testi__right-bottom{
+    position: relative;
+
     margin-top: 10rem;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .home-testi__right-avtor{
@@ -40,4 +43,57 @@
     img{
         margin-right: 1.3rem;
     }
+}
+
+.home-testi__arrows{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.home-testi__arrow-left{
+    right: 30px;
+}
+
+.home-testi__arrow-right{
+    right: -55px;
+}
+
+.home-testi__arrow-left,
+.home-testi__arrow-right{
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    background-color: $white;
+
+    padding: 1.5rem;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    transition: background $transitionArrows linear, fill $transitionArrows linear, padding $transitionArrows linear;
+
+    &:hover{
+        background-color: $black;
+        fill: $white;
+
+        padding: 1.8rem;
+    }
+
+    &:hover > .arrow{
+        width: 28px;
+        height: 28px;
+    }
+}
+
+.arrow{
+    display: block;
+
+    width: 20px;
+    height: 20px;
+
+    transition: width $transitionArrows linear, height $transitionArrows linear;
 }
