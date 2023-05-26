@@ -1,0 +1,37 @@
+.post__item{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 6.4rem;
+}
+
+.post__image{
+    margin-right: 3.2rem;
+
+    img{
+        display: block;
+
+        width: 100%;
+        min-width: 375px;
+        height: auto;   
+    }
+}
+
+.post__content{
+    width: 50%;
+}
+
+.post__suptitle{
+    margin-bottom: 1.8rem;
+}
+
+.post__title{
+    &:hover{
+        text-decoration: underline;
+        color: $black;
+    }
+}
+
+.post__text{
+    margin-top: 1.4rem;
+}
