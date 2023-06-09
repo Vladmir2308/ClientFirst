@@ -1,0 +1,84 @@
+.about-info__inner{
+    position: absolute;
+    top: -65px;
+    left: 0;
+    z-index: -1;
+
+    color: $black;
+}
+
+.about-info__photo{
+    img{
+        display: block;
+        width: 100%;
+    }
+
+    position: relative;
+
+    &::before, &::after{
+        content: "";
+
+        position: absolute;
+        bottom: 0;
+        left: 110px;
+    }
+
+    &::before{
+        height: 23px;
+        width: 24%;
+
+        background-color: $purple; 
+        
+        z-index: 2;
+    }
+
+    &::after{
+        height: 23px;
+        width: 67%;
+
+        background-color: $orange;  
+
+        z-index: 1;
+    }
+}
+
+.about-info__photo-statistic{
+    background-color: $orange;
+
+    position: absolute;
+    bottom: 0;
+    left: 110px;
+
+    padding: 3.2rem 4.8rem 5.5rem;
+
+    display: flex;
+}
+
+.about-statistic__item{
+    margin-right: 6.8rem;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.about-statistic__item-text{
+    font-family: "I_R";
+    font-size: 1.6rem;
+}
+
+.about-info__explan{
+    background-color: $transPurple;
+
+    padding: 12.8rem 10.8rem 6.4rem;
+
+    display: flex;
+}
+
+.about-info__explan-left{
+    margin-right: 3.2rem;
+}
+
+.about-info__explan-title{
+    margin: 2.4rem 0 1.6rem;
+}
