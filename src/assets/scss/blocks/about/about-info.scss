@@ -1,3 +1,7 @@
+.about-info{
+    height: 823px;
+}
+
 .about-info__inner{
     position: absolute;
     top: -65px;
@@ -5,6 +9,8 @@
     z-index: -1;
 
     color: $black;
+
+    padding: 0 15px;
 }
 
 .about-info__photo{
