@@ -8,6 +8,14 @@
     opacity: .32;
 }
 
+.blog-post__img{
+    display: block;
+
+    width: 100%;
+    min-width: 375px;
+    height: auto; 
+}
+
 .blog-posts__leaf{
     color: $lightGray;
     font-family: "S_B";

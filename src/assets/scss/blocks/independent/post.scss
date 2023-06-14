@@ -11,14 +11,6 @@
 
 .post__image{
     margin-right: 3.2rem;
-
-    img{
-        display: block;
-
-        width: 100%;
-        min-width: 375px;
-        height: auto;   
-    }
 }
 
 .post__content{
@@ -27,6 +19,10 @@
 
 .post__suptitle{
     margin-bottom: 1.8rem;
+
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 .post__title{
