@@ -9,6 +9,12 @@
     align-items: center;
 }
 
+.post-intro__avtor-text__name{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
 .post-intro__avtor-photo{
     margin-right: 1.6rem;
 }
