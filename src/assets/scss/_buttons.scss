@@ -1,3 +1,16 @@
-.button-brown{
-    background: $brown;
+.button{
+    color: #ffffff;
+    font-size: 1.6rem;
+
+    padding: 1.2rem;
+    border-radius: 1.7rem;
+    
+    &--brown{
+        background: $brown;
+    }
+
+    &--green{
+        background: $green;
+        font-size: 2rem;
+    }
 }

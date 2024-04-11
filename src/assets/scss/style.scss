@@ -15,77 +15,16 @@ html {
 
 body {
     background-color: $white;
-    font-size: 1.6rem;
+    font-size: $fontMain;
     line-height: 1.75;
-    font-family: "S_B";
-    color: $white;
+    font-family: "I_B";
+    color: $black
 }
 
 a{
     text-decoration: none;
 }
 
-/* Independent */
-@import 'blocks/independent/button';
-@import 'blocks/independent/social';
-@import 'blocks/independent/header';
-@import 'blocks/independent/container';
-@import 'blocks/independent/nav';
-@import 'blocks/independent/footer';
-@import 'blocks/independent/span';
-@import 'blocks/independent/titles';
-@import 'blocks/independent/text';
-@import 'blocks/independent/category';
-@import 'blocks/independent/authors';
-@import 'blocks/independent/join';
-@import 'blocks/independent/post';
-@import 'blocks/independent/form';
-@import 'blocks/independent/policy';
-
-/* Home */
-@import 'blocks/home/home';
-@import 'blocks/home/home-intro';
-@import 'blocks/home/home-post';
-@import 'blocks/home/home-about';
-@import 'blocks/home/home-category';
-@import 'blocks/home/home-started';
-@import 'blocks/home/home-authors';
-@import 'blocks/home/home-logos';
-@import 'blocks/home/home-testi';
-
-/* Blog */
-@import 'blocks/blog/blog-intro';
-@import 'blocks/blog/blog-posts';
-
-/* Blog Post */
-@import 'blocks/post/post-intro';
-@import 'blocks/post/post-photo';
-@import 'blocks/post/post-content';
-@import 'blocks/post/post-read';
-
-/* About us */
-@import 'blocks/about/about-intro';
-@import 'blocks/about/about-info';
-@import 'blocks/about/about-team';
-
-/* Category */
-@import 'blocks/category/cat-intro';
-@import 'blocks/category/cat-post';
-
-/* Authors */
-@import 'blocks/authors/authors-intro';
-@import 'blocks/authors/authors-posts';
-
-/* Contact */
-@import 'blocks/contact/contact';
-
-
-.test{
-    font-size: 100px;
-    font-family: "I_R";
-    color: #000000;
-}
-
-
-
-
+@import 'blocks/header/cabinet.scss';
+@import 'blocks/header/header.scss';
+@import 'blocks/header/nav.scss';
