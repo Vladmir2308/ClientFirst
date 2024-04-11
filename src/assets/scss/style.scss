@@ -25,6 +25,10 @@ a{
     text-decoration: none;
 }
 
+// Header
 @import 'blocks/header/cabinet.scss';
 @import 'blocks/header/header.scss';
 @import 'blocks/header/nav.scss';
+
+// Main
+@import 'blocks/main/intro.scss';
