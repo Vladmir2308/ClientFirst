@@ -1,10 +1,25 @@
 nav{
     display: flex;
 
-    color: $brown;
     font-size: 1.6rem;
 }
 
 .nav-link{
-    color: $black;
+    color: $brown;
+
+    border: 0.3rem solid transparent;
+
+    margin-right: 3.1rem;
+    padding: 1.2rem 1.4rem;
+
+    &:hover{
+        border: 0.3rem solid $gold;
+        border-radius: $borderRadius;
+
+        transition: border .3s linear;
+    }
+
+    &:last-child{
+        margin-right: 0;
+    }
 }

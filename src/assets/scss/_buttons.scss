@@ -3,10 +3,20 @@
     font-size: 1.6rem;
 
     padding: 1.2rem;
+
     border-radius: 1.7rem;
     
     &--brown{
-        background: $brown;
+        border: 0.3rem solid $brown;
+
+        color: $brown;
+
+        &:hover{
+            background: $brown;
+            color: $white;
+
+            transition: background .4s linear;
+        }
     }
 
     &--green{

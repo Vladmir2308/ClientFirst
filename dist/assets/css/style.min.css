@@ -11,6 +11,7 @@
   src: url("../fonts/Involve-Bold.woff") format("woff");
 }
 /* Colors */
+/* Borders */
 .button {
   color: #ffffff;
   font-size: 1.6rem;
@@ -18,7 +19,13 @@
   border-radius: 1.7rem;
 }
 .button--brown {
+  border: 0.3rem solid #402E0C;
+  color: #402E0C;
+}
+.button--brown:hover {
   background: #402E0C;
+  color: #ffffff;
+  transition: background 0.4s linear;
 }
 .button--green {
   background: #2C4410;
@@ -390,18 +397,55 @@ a {
   text-decoration: none;
 }
 
+.cabinet {
+  display: flex;
+  align-items: center;
+}
+
+.cabinet-icons {
+  display: flex;
+  margin-left: 1.2rem;
+}
+
+.cabinet-icon {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-right: 0.4rem;
+}
+.cabinet-icon:last-child {
+  margin-right: 0;
+}
+
 .header-inner {
+  max-width: 1700px;
+  padding: 0 1.5rem;
+  margin: 2.2rem auto 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.header-logo__img {
+  width: wrap;
+  height: 5.8rem;
+}
+
 nav {
   display: flex;
-  color: #402E0C;
   font-size: 1.6rem;
 }
 
 .nav-link {
-  color: #000000;
+  color: #402E0C;
+  border: 0.3rem solid transparent;
+  margin-right: 3.1rem;
+  padding: 1.2rem 1.4rem;
+}
+.nav-link:hover {
+  border: 0.3rem solid #E4BD71;
+  border-radius: 1.7rem;
+  transition: border 0.3s linear;
+}
+.nav-link:last-child {
+  margin-right: 0;
 }

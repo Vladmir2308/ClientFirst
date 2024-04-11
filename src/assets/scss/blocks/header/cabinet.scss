@@ -1,0 +1,21 @@
+.cabinet{
+    display: flex;
+    align-items: center;
+}
+
+.cabinet-icons{
+    display: flex;
+
+    margin-left: 1.2rem;
+}
+
+.cabinet-icon{
+    width: 4.4rem;
+    height: 4.4rem;
+    
+    margin-right: 0.4rem;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}

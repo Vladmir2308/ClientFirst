@@ -3,7 +3,17 @@
 }
 
 .header-inner{
+    max-width: 1700px;
+
+    padding: 0 1.5rem;
+    margin: 2.2rem auto 0;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-logo__img{
+    width: wrap;
+    height: 5.8rem;
 }
