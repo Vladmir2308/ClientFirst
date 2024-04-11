@@ -1,5 +1,6 @@
 @import 'fonts';
 @import 'vars';
+@import 'buttons';
 @import 'vendor/reset';
 
 *,
@@ -79,6 +80,11 @@ a{
 @import 'blocks/contact/contact';
 
 
+.test{
+    font-size: 100px;
+    font-family: "I_R";
+    color: #000000;
+}
 
 
 

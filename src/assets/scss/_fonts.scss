@@ -1,29 +1,21 @@
 @font-face{
-    font-family: "S_R";
-    src: url("../fonts/Sen-Regular.woff") format("woff");
+    font-family: "I_R";
+    src: url("../fonts/Involve-Regular.woff") format("woff");
 }
 
 @font-face{
-    font-family: "S_B";
-    src: url("../fonts/Sen-Bold.woff") format("woff");
-}
-
-@font-face{
-    font-family: "S_EB";
-    src: url("../fonts/Sen-ExtraBold.woff") format("woff");
+    font-family: "I_M";
+    src: url("../fonts/Involve-Medium.woff") format("woff");
 }
 
 @font-face{
     font-family: "I_B";
-    src: url("../fonts/Inter-Black.woff") format("woff");
+    src: url("../fonts/Involve-Bold.woff") format("woff");
 }
 
-@font-face{
-    font-family: "I_R";
-    src: url("../fonts/Inter-Regular.woff") format("woff");
-}
-
-@font-face{
-    font-family: "I_SB";
-    src: url("../fonts/Inter-SemiBold.woff") format("woff");
-}
+$fontMain: 1.6rem;
+$fontMainTitle: 7.8rem;
+$fontMainSubtitle: 4rem;
+$fontTitle: 4.8rem;
+$fontSubtitle: 3.2rem;
+$fontCardInfo: 2rem;
