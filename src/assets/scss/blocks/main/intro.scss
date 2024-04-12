@@ -1,10 +1,6 @@
-.main{
-    position: relative;
-}
-
 .main-intro{
-    background: url('assets/images/intro-bg.jpg') center no-repeat;
+    background: url('/assets/images/intro-bg.jpg') center no-repeat;
     background-size: cover;
 
-    height: calc(100vh - 100px);
+    height: calc(100vh - $headerHeight);
 }
