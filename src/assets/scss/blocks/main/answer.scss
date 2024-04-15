@@ -29,3 +29,69 @@
 
     margin-bottom: 3rem;
 }
+
+.main-answer__right{
+    color: #ffffff;
+
+    width: 1050px;
+    max-width: 100%;
+    border-radius: 27px;
+
+    background: rgba(184, 191, 177, .35);
+    backdrop-filter: blur(15px);
+
+    padding: 2.2rem;
+}
+
+.main-answer__right-item{
+    position: relative;
+
+    cursor: pointer;
+
+    font-family: "I_SB";
+    font-size: $fontMain;
+
+    border: 3px solid transparent;
+    border-radius: 42px;
+
+    padding: 2rem;
+
+
+    &:hover{
+        border: 3px solid #ffffff;
+        transition: border .3s linear;
+    }
+
+    &::before{
+        content: "";
+        width: 20px;
+        height: 4px;
+
+        position: absolute;
+        top: 50%;
+        right: 35px;
+
+        transform: translate3d(0, -50%, 0);
+        transform: rotate(40deg);
+
+        background: #ffffff;
+        border-radius: 5px;
+    }
+
+    &::after{
+        content: "";
+        width: 20px;
+        height: 4px;
+
+        position: absolute;
+        top: 50%;
+        right: 24px;
+
+        transform: translate3d(0, -50%, 0);
+
+        transform: rotate(-40deg);
+
+        background: #ffffff;
+        border-radius: 5px;
+    }
+}

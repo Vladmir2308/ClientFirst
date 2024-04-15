@@ -23,7 +23,6 @@ body {
 
 .section{
     margin-top: 100px;
-    padding: 0 20px;
 }
 
 a{
@@ -37,3 +36,6 @@ a{
 // Main
 @import 'blocks/main/features.scss';
 @import 'blocks/main/answer.scss';
+
+// Footer
+@import 'blocks/footer/footer.scss';
