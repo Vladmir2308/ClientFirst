@@ -1,0 +1,142 @@
+.set{
+    position: relative;
+
+    background: url('/public/dist/img/page-main/set-bg.jpg') center no-repeat;
+    background-size: cover;
+
+    padding: 6rem 0;
+
+    max-width: 100%;
+
+    border-radius: 40px 40px 0 0;
+
+    &::after{
+        content: "";
+        width: 100%;
+        height: 100px;
+
+        position: absolute;
+        top: -22px;
+        left: 0;
+        z-index: -2;
+
+        border-radius: 21px 21px 0 0;
+        background: $yellow;
+    }
+}
+
+.set-title{
+    color: $green;
+    font-size: $fontTitle;
+    font-family: "I_SB";
+
+    position: absolute;
+    top: -55px;
+    left: 81px;
+    z-index: -1;
+
+    padding: 0 10px;
+
+    background: $yellow;
+    border-radius: 21px 21px 0 0;
+
+    &::before{
+        content: '';
+        background: url('/public/dist/img/page-main/set-corner-left.svg') center no-repeat;
+    }
+}
+
+.set-title_corner-left{
+    position: absolute;
+    top: -37px;
+    left: 68px;
+}
+
+.set-title_corner-right{
+    position: absolute;
+    top: -37px;
+    left: 626px;
+}
+
+.set-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-left{
+    margin-right: 83px;
+}
+
+.set-left__content{
+    background: rgba(92, 101, 82, .35);
+    backdrop-filter: blur(15px);
+    border-radius: 27px;
+
+    max-width: 431px;
+
+    padding: 4.5rem;
+}
+
+.set-left__content-title{
+    font-size: $fontTitleSmaller;
+    color: #ffffff;
+    font-family: "I_R";
+
+    margin-bottom: 110px;
+
+    &--span{
+        font-family: "I_SB";
+    }
+}
+
+.set-left__content-button{
+    text-align: center;
+}
+
+.set-card__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.set-card__item{
+    background: #ffffff;
+    border-radius: 17px;
+
+    padding: 1.3rem;
+    margin-right: 3rem;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.set-card__photo-file{
+    border-radius: 17px;
+
+    max-width: 260px;
+    height: 230px;
+    display: block;
+}
+
+.set-card__title{
+    color: $green;
+    font-family: "I_SB";
+    font-size: $fontTitle;
+
+    margin: 1rem 0 2rem .8rem;
+}
+
+.set-card__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: .8rem;
+}
+
+.set-card__footer-price{
+    color: $green;
+    font-family: "I_SB";
+    font-size: $fontHighSmaller;
+}

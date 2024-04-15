@@ -1,26 +1,66 @@
-.button{
+.button-yellow{
+    color: #000000;
+    font-family: "I_SB";
+    font-size: $fontMain;
+
+    background: $yellow;
+    border-radius: 2.7rem;
+    border: 0;
+
+
+    padding: 1.8rem;
+
+    &:hover{
+        background: #FFF37B;
+
+        transition: background .4s linear;
+    }
+
+    &--radius__smaller{
+        border-radius: 21px;
+        padding: 2rem 5.0rem;
+
+        font-size: $fontTitleSmaller;
+        color: $green;
+    }
+}
+
+.button-green{
     color: #ffffff;
-    font-size: 1.6rem;
+    font-family: "I_M";
+    font-size: $fontSmaller;
+
+    background: $green;
+
+    border-radius: 1.7rem;
 
     padding: 1.2rem;
 
-    border-radius: 1.7rem;
-    
-    &--brown{
-        border: 0.3rem solid $brown;
+    &:hover{
+        color: #ffffff;
 
-        color: $brown;
+        background: $greenHover;
 
-        &:hover{
-            background: $brown;
-            color: $white;
-
-            transition: background .4s linear;
-        }
+        transition: background .4s linear;
     }
+}
 
-    &--green{
-        background: $green;
-        font-size: 2rem;
+.button-white{
+    color: $green;
+    font-family: "I_SB";
+    font-size: $fontTitle;
+
+    background: #ffffff;
+
+    border-radius: 21px;
+
+    padding: 1.2rem;
+
+    &:hover{
+        color: $green;
+
+        background: #CDCDCD;
+
+        transition: background .4s linear;
     }
 }

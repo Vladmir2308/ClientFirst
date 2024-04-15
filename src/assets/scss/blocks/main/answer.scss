@@ -1,0 +1,31 @@
+.main-answer{
+    display: flex;
+    justify-content: center;
+}
+
+.main-answer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-answer__left{
+    max-width: 440px;
+
+    color: $green;
+}
+
+.main-answer__left-title{
+    font-size: $fontMainTitle;
+    font-family: "I_SB";
+    line-height: 1.3;
+    
+    margin-bottom: 4.5rem;
+}
+
+.main-answer__left-subtitle{
+    font-size: $fontTitle;
+    font-family: "I_M";
+
+    margin-bottom: 3rem;
+}
