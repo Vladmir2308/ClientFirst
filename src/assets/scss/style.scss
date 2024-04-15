@@ -23,6 +23,10 @@ body {
 
 .section{
     margin-top: 100px;
+
+    &--unique{
+        margin-top: 172px;
+    }
 }
 
 a{
@@ -36,6 +40,7 @@ a{
 // Main
 @import 'blocks/main/features.scss';
 @import 'blocks/main/answer.scss';
+@import 'blocks/main/best.scss';
 
 // Footer
 @import 'blocks/footer/footer.scss';

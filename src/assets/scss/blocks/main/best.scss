@@ -1,0 +1,98 @@
+.main-best{
+    position: relative;
+
+    width: 1400px;
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    &::before{
+        content: "Самое популярное направление 2024";
+
+        padding-top: 2rem;
+
+        color: #ffffff;
+        text-align: center;
+        font-size: $fontHighSmaller;
+        font-family: "I_SB";
+
+        width: 100%;
+        height: 160px;
+
+        position: absolute;
+        top: -72px;
+        left: 0;
+        z-index: -1;
+
+        background: $yellow;
+        border-radius: 26px;
+
+    }
+}
+
+.main-best__inner{
+    color: $yellow;
+
+    padding-top: 240px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-best__left{
+    width: 50%;
+}
+
+.main-best__left-title{
+    font-size: $fontBigBoss;
+    color: $yellow;
+    font-family: "I_B";
+
+}
+
+.main-best__left-subtitle{
+    font-size: $fontTitleSmaller;
+
+}
+
+.main-best__left-button{
+    margin-top: 5rem;
+}
+
+.main-best__right{
+    width: 50%;
+
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-raiting__inner{
+    max-width: 300px;
+
+    padding: 3rem;
+
+    background: rgba(184, 191, 177, .35);
+    backdrop-filter: blur(15px);
+    border-radius: 57px;
+}
+
+.main-raiting__top,
+.main-raiting__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-raiting__text{
+    font-size: $fontMain;
+    font-family: "I_M";
+
+}
+
+.main-best__right-text{
+    font-size: $fontMain;
+    font-family: "I_M";
+}

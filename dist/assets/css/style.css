@@ -1,6 +1,8 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: "I_R";
-    src: url("../fonts/Involve-Regular.woff") format("woff");
+  src: url("../fonts/Involve-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -34,6 +36,10 @@
     padding: 2rem 5rem;
     font-size: 3.2rem;
     color: #2C4410;
+}
+
+.button-yellow--white {
+    color: #ffffff;
 }
 
 .button-green {
@@ -444,6 +450,10 @@ body {
     margin-top: 100px;
 }
 
+.section--unique {
+    margin-top: 172px;
+}
+
 a {
     text-decoration: none;
 }
@@ -519,7 +529,7 @@ nav {
 }
 
 .main-features__inner {
-    max-width: 940px;
+    max-width: 950px;
 }
 
 .main-features__item {
@@ -652,11 +662,105 @@ nav {
     border-radius: 5px;
 }
 
-.footer {
+.main-best {
+    position: relative;
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.main-best::before {
+    content: "Самое популярное направление 2024";
+    padding-top: 2rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: "I_SB";
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: -72px;
+    left: 0;
+    z-index: -1;
+    background: #E4BD71;
+    border-radius: 26px;
+}
+
+.main-best__inner {
+    color: #E4BD71;
+    padding-top: 240px;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main-best__left {
+    width: 50%;
+}
+
+.main-best__left-title {
+    font-size: 9.6rem;
+    color: #E4BD71;
+    font-family: "I_B";
+}
+
+.main-best__left-subtitle {
+    font-size: 3.2rem;
+}
+
+.main-best__left-button {
+    margin-top: 8.5rem;
+}
+
+.main-best__right {
+    width: 50%;
+    text-align: right;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main-raiting__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    max-width: 300px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    background: rgba(184, 191, 177, 0.35);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 57px;
+}
+
+.main-raiting__top,
+.main-raiting__bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main-raiting__text {
+    font-size: 2rem;
+    font-family: "I_M";
+}
+
+.main-best__right-text {
+    font-size: 2rem;
+    font-family: "I_M";
+}
+
+.footer {
     padding: 6rem 8rem;
 }
 
@@ -686,14 +790,30 @@ nav {
 
 .footer__col-copyright {
     font-size: 1.6rem;
-    text-align: center;
 }
 
 .footer__col-tour {
+    color: #ffffff;
     font-size: 2rem;
     text-align: center;
 }
 
+.footer__col-tour:hover {
+    color: #8B8B8B;
+    transition: color 0.3s linear;
+}
+
 .footer__col-link {
     color: #ffffff;
+    text-align: center;
+}
+
+.footer__col-link:hover {
+    color: #8B8B8B;
+    transition: color 0.3s linear;
+}
+
+.footer__col-bottom__license {
+    font-size: 1.6rem;
+    text-align: right;
 }
